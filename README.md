@@ -15,8 +15,8 @@
 Useful things this demo app demonstrates:
 
 - An application menu with a `File -> New Window ⌘N` command for creating new windows
-- A module for managing windows in `main/windows.js` (list, create, destroy)
-- A basic IPC example in `main/windows.js` and `renderer/index.js`
+- A module for managing windows in [`main/windows.js`](main/windows.js) (list, create, destroy)
+- A basic IPC example in [`main/windows.js`](main/windows.js) and [`renderer/index.js`](renderer/index.js)
 
 ## Try It Out
 
