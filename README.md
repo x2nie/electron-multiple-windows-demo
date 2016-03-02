@@ -14,9 +14,9 @@
 
 Useful things this demo app demonstrates:
 
-- A module for creating an [application menu](https://github.com/atom/electron/blob/master/docs/api/menu.md) with a `File -> New Window ⌘N` command for creating new windows in [`main/menu.js`](main/menu.js)
-- A module for managing [browser window](https://github.com/atom/electron/blob/master/docs/api/browser-window.md) instances in [`main/windows.js`](main/windows.js) (list, create, destroy)
-- A basic [inter-process communication](https://github.com/atom/electron/blob/master/docs/api/ipc-renderer.md) example in [`main/windows.js`](main/windows.js) and [`renderer/index.js`](renderer/index.js)
+- Creates an [application menu](https://github.com/atom/electron/blob/master/docs/api/menu.md) with a working `File -> New Window ⌘N` command in [`main/menu.js`](main/menu.js)
+- Manages [browser window](https://github.com/atom/electron/blob/master/docs/api/browser-window.md) instances in [`main/windows.js`](main/windows.js) (list, create, destroy)
+- Does some basic [inter-process communication](https://github.com/atom/electron/blob/master/docs/api/ipc-renderer.md) between [`main/windows.js`](main/windows.js) and [`renderer/index.js`](renderer/index.js)
 
 ## Try It Out
 
