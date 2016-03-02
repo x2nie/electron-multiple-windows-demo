@@ -14,9 +14,9 @@
 
 Useful things this demo app demonstrates:
 
-- An application menu with a `File -> New Window ⌘N` command for creating new windows
-- A module for managing windows in [`main/windows.js`](main/windows.js) (list, create, destroy)
-- A basic IPC example in [`main/windows.js`](main/windows.js) and [`renderer/index.js`](renderer/index.js)
+- An [application menu](https://github.com/atom/electron/blob/master/docs/api/menu.md) with a `File -> New Window ⌘N` command for creating new windows
+- A module for managing [browser window](https://github.com/atom/electron/blob/master/docs/api/browser-window.md) instances in [`main/windows.js`](main/windows.js) (list, create, destroy)
+- A basic [inter-process communication](https://github.com/atom/electron/blob/master/docs/api/ipc-renderer.md) example in [`main/windows.js`](main/windows.js) and [`renderer/index.js`](renderer/index.js)
 
 ## Try It Out
 
@@ -25,6 +25,12 @@ git clone git@github.com:ngoldman/electron-multiple-windows-demo.git
 cd electron-multiple-windows-demo
 npm install
 npm start
+```
+
+If you want the dev tools to show up automatically when a new window opens, you can start the application in debug mode:
+
+```
+npm start -- --debug
 ```
 
 ## Thanks
