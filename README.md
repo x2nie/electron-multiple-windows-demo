@@ -1,30 +1,36 @@
-# electron-quick-start
+# electron-multiple-windows-demo
 
-**Clone and run for a quick way to see an Electron in action.**
+> An example electron app showing how to manage multiple windows.
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
+[![travis][travis-image]][travis-url]
+[![standard][standard-image]][standard-url]
 
-A basic Electron application needs just these files:
+[travis-image]: https://img.shields.io/travis/ngoldman/electron-multiple-windows-demo.svg?style=flat-square
+[travis-url]: https://travis-ci.org/ngoldman/electron-multiple-windows-demo
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
+[standard-url]: http://standardjs.com/
 
-- `index.html` - A web page to render.
-- `main.js` - Starts the app and creates a browser window to render HTML.
-- `package.json` - Points to the app's main file and lists its details and dependencies.
+![](screenshot.png)
 
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start).
+Useful things this demo app demonstrates:
 
-## To Use
+- An application menu with a `File -> New Window ⌘N` command for creating new windows
+- A module for managing windows in `main/windows.js` (list, create, destroy)
+- A basic IPC example in `main/windows.js` and `renderer/index.js`
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+## Try It Out
 
-```bash
-# Clone this repository
-git clone https://github.com/atom/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies and run the app
-npm install && npm start
+```js
+git clone git@github.com:ngoldman/electron-multiple-windows-demo.git
+cd electron-multiple-windows-demo
+npm install
+npm start
 ```
 
-Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
+## Thanks
 
-#### License [CC0 (Public Domain)](LICENSE.md)
+This demo is built on top of [`electron-quick-start`](https://github.com/atom/electron-quick-start).
+
+## License
+
+[CC0 1.0 Universal](LICENSE)
