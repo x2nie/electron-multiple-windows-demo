@@ -1,6 +1,6 @@
-# electron-multiple-windows-demo
+# [Electron](https://github.com/atom/electron) Multiple Windows Demo
 
-> An example electron app showing how to manage multiple windows.
+> An example [electron](https://github.com/atom/electron) app showing how to manage multiple windows.
 
 [![travis][travis-image]][travis-url]
 [![standard][standard-image]][standard-url]
