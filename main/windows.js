@@ -21,7 +21,7 @@ function create () {
 
   if (config.DEBUG) win.webContents.openDevTools()
 
-  win.webContents.on('did-finish-load', function() {
+  win.webContents.on('did-finish-load', function () {
     win.webContents.send('id', win.id)
   })
 
