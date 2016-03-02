@@ -20,7 +20,7 @@ Useful things this demo app demonstrates:
 
 ## Try It Out
 
-```js
+```
 git clone git@github.com:ngoldman/electron-multiple-windows-demo.git
 cd electron-multiple-windows-demo
 npm install
