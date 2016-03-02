@@ -33,4 +33,4 @@ This demo is built on top of [`electron-quick-start`](https://github.com/atom/el
 
 ## License
 
-[CC0 1.0 Universal](LICENSE)
+[CC0 1.0 Universal](LICENSE.md)
